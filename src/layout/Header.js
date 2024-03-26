@@ -26,7 +26,7 @@ function Header() {
                     <li><NavLink className='btn btn-primary navtabs' to="/pet">
                       <Typography>Pets</Typography></NavLink></li>
 
-                    <li><NavLink className='btn btn-primary navtabs' to="https://github.com/Liaqat22?tab=repositories" target="_blank">
+                    <li><NavLink className='btn btn-primary navtabs' to="https://github.com/Liaqat22/pet-shop" target="_blank">
                       <Typography>Source Code</Typography></NavLink></li>
                
                 </ul>
