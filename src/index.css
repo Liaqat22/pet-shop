@@ -73,7 +73,12 @@ margin: 0rem;
   background-size: cover;
   height: 30rem;
 }
-
+@media screen and (min-width:300px) and (max-width:770px) {
+  .contactinfo{
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+}
 @media screen and (min-width:300px) and (max-width:900px) {
   .sideRes{
     display: block;
