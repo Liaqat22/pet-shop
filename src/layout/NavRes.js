@@ -7,7 +7,7 @@ function NavRes() {
     { name: "Home", url: "/" },
     { name: "About", url: "/about" },
     { name: "Pets", url: "/pet" },
-    { name: "Source Code", url: "https://github.com/Liaqat22?tab=repositories" },
+    { name: "Source Code", url: "https://github.com/Liaqat22/pet-shop" },
 
   ]
   return (
