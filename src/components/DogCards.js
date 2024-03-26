@@ -9,7 +9,7 @@ function DogCards() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='text-center'>
-                        <Typography variant='h3'>
+                        <Typography variant='h4'>
                           <b>Featured pets</b>  
                         </Typography>
                     </div>
@@ -25,6 +25,9 @@ function DogCards() {
                                         alt={d.name}
                                     />
                                     <CardContent>
+                                        <Typography variant="body1" className='mb-2'>
+                                            <b >{d.name}</b>
+                                        </Typography>
                                         <Typography variant="body2" >
                                             {d.description}
                                         </Typography>
