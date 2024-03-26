@@ -10,7 +10,7 @@ function About() {
             <img src='https://tailwag.progressionstudios.com/wp-content/uploads/2022/04/dog-P228UWM.jpg' alt='dog' style={{width:"100%"}}/>
         </div>
         <div className='col-md-6'>
-            <Typography variant='h3'>About Us</Typography>
+            <Typography variant='h4'><b>About Us</b></Typography>
             <div className='mt-3'>
 
             <Typography className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</Typography>
